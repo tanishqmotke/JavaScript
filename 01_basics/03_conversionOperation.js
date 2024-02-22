@@ -33,3 +33,10 @@ let someNumber = 33
 let ConvertToString = String(someNumber)
 console.log(typeof ConvertToString)
 console.log(ConvertToString)
+console.log("---------------")
+//********Operations**************
+
+console.log(1 + "2") // 12
+console.log("1" + 2 ) //12
+console.log("1" + 2 + 2) // 122
+console.log( 1 + 2 + "2") //32
